@@ -35,7 +35,7 @@ void configure() {
 }
 
 void connectToWlan() {
-  //Connect to WLAN
+  
   WiFi.begin(ssid, pass);
     
   while (WiFi.status() != WL_CONNECTED) {
